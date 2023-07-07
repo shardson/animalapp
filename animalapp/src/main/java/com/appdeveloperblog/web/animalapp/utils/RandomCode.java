@@ -11,7 +11,7 @@ public class RandomCode {
     private final Random RANDOM = new SecureRandom();
     private final String ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVXZabcdefghijklmnopqrstuvxz";
 
-    public String generateUserId(int lenght) {
+    public String generateCode(int lenght) {
         StringBuilder returnValue = new StringBuilder(lenght);
 
         for (int i = 0; i < lenght; i++) {
